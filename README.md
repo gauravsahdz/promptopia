@@ -23,12 +23,12 @@ You can start editing the page by modifying `app/page.js`. The page auto-updates
 
 # Steps to set up this project in your local:
 ## 1. You need to create a .env file on the root directory of this project and add the following configs in there:
-   > GOOGLE_ID= {Your google id from console.cloud.google.com}
-   > GOOGLE_CLIENT_SECRET= {Your Google client secret from console.cloud.google.com}
-   > MONGODB_URI= {your MongoDB url where you want to save data}
-   > NEXTAUTH_URL= {your frontend base URL: http://localhost:3000 or deployed url}
-   > NEXTAUTH_URL_INTERNAL={your frontend base URL: http://localhost:3000 or deployed url}
-   > NEXTAUTH_SECRET= {command to generate one: openssl rand -base64 32 }
+   > GOOGLE_ID= {Your google id from console.cloud.google.com} </br>
+   > GOOGLE_CLIENT_SECRET= {Your Google client secret from console.cloud.google.com} </br>
+   > MONGODB_URI= {your MongoDB url where you want to save data} </br>
+   > NEXTAUTH_URL= {your frontend base URL: http://localhost:3000 or deployed url} </br>
+   > NEXTAUTH_URL_INTERNAL={your frontend base URL: http://localhost:3000 or deployed url} </br>
+   > NEXTAUTH_SECRET= {command to generate one: openssl rand -base64 32 } </br>
 
-# npm run dev
+ ## 2. npm run dev
 Good TO GO
