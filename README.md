@@ -1,8 +1,6 @@
 ![image](https://github.com/gauravsahdz/promptopia/assets/72140359/0a58c7a5-a4af-4ded-9d6b-665a8ce0553b)
 
 
-
-
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -21,11 +19,16 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+====================================================================================================================================================================================
 
+# Steps to set up this project in your local:
+## 1. You need to create a .env file on the root directory of this project and add the following configs in there:
+   > GOOGLE_ID= {Your google id from console.cloud.google.com}
+   > GOOGLE_CLIENT_SECRET= {Your Google client secret from console.cloud.google.com}
+   > MONGODB_URI= {your MongoDB url where you want to save data}
+   > NEXTAUTH_URL= {your frontend base URL: http://localhost:3000 or deployed url}
+   > NEXTAUTH_URL_INTERNAL={your frontend base URL: http://localhost:3000 or deployed url}
+   > NEXTAUTH_SECRET= {command to generate one: openssl rand -base64 32 }
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+# npm run dev
+Good TO GO
